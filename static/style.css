@@ -1,0 +1,103 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* RESETTING CSS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+body::before {
+    content: " ";
+    background: url('/static/luis-vidal-FodEsaNZs48-unsplash.jpg') no-repeat center center;
+    z-index: -1;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    opacity: 0.9;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+    background-color: grey;
+}
+
+.navbar .navbar-logo {
+    width: 30%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .navbar-logo:hover {
+    cursor: pointer;
+}
+
+.navbar .navbar-links {
+    width: 70%;
+}
+
+.navbar .navbar-links ul {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .navbar-links ul li {
+    list-style: none;
+    padding: 0px 50px;
+}
+
+.navbar .navbar-links ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.navbar .navbar-links ul li a:hover {
+    color: black;
+}
+
+form {
+    max-width: 40%;
+    margin: 20px auto;
+    font-weight: lighter;
+}
+
+form input, textarea {
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    outline: none;
+}
+
+form .btn {
+    display: block;
+    max-width: 100%;
+    margin: 5px auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    outline: none;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+form .btn:hover {
+    color: white;
+    background-color: #000;
+}
+
+
+
