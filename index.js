@@ -5,7 +5,7 @@ const app = express();
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv:ShaikAdil:hello2021@gym-fit-website.aykez.mongodb.net/gym-fit-data?retryWrites=true&w=majority');
+mongoose.connect('process.env.DatabaseUrl');
 
 const contactSchema = new mongoose.Schema({
     name: String,
